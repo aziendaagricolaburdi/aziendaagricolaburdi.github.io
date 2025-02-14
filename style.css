@@ -171,8 +171,14 @@ header {
 }
 
 .recapiti p{
+
     font-family:'Courier New', Courier, monospace;
     white-space: nowrap;
+}
+
+#tel {
+    border-color: blanchedalmond;
+    border-radius: 3px;
 }
 
 
@@ -198,4 +204,5 @@ h6 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
 }
+
 
