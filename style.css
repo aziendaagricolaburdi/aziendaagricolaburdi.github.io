@@ -160,7 +160,7 @@ header {
 
 .recapiti_orari {
     margin-top:3vh;
-    color: white;
+    color: white !important;
     margin-left:4vw;
 }
 
