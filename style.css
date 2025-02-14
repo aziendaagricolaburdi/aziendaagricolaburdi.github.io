@@ -173,7 +173,7 @@ header {
 .recapiti p{
     font-family:'Courier New', Courier, monospace;
     white-space: nowrap;
-    font-weight: bolder;
+    color: white !important;
 }
 
 
