@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Fleur+De+Leah&family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Fleur+De+Leah&family=Meow+Script&family=Pacifico&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 39, 39);
+}
+
+header {
+    position: relative;
+}
+
+.container_header{
+    display: flex;
+    width: 100%;
+    gap: 200px;
+}
+
+#logo {
+    width: 30vh;
+    height: auto;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 150px;
+}
+
+.info p {
+    white-space: nowrap;
+}
+
+.orari p{
+    margin:0;
+}
+
+.indirizzo_e_telefono p{
+    margin: 0px;
+}
+
+.elenco_orari {
+    color: rgb(59, 57, 57);
+    margin:0;
+}
+
+.container_servizi {
+    margin-top:40px;
+    width: 100vw;
+    height: 65vh;
+    position: relative;
+
+}
+
+#olivo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(20%);
+}
+
+.servizi {
+    top: -5vh;
+    display: flex;
+    font-family: "Birthstone", serif;
+    font-size: 4vh;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    z-index:999;
+    color:white;
+}
+
+.box_servizi {
+    top: 12vh; 
+    position: absolute;
+    width: 100%;
+    display: flex;
+    gap: calc(10px + 3vw);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box_1 {
+    display: flex;  
+    gap: calc(10px + 3vw);
+
+    
+}
+
+.box_2 {
+    display: flex;
+    gap: calc(10px + 3vw);
+
+}
+
+.card {
+    width:20vw;
+    height: auto;
+    min-width: 120px;
+    background-color: rgb(50, 105, 50);
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(50, 105, 50);
+}
+
+.card:hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay_text {
+    margin-top: 1vh;
+    font-size: min(2.5vh, 2.5vw);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.container_info {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(59, 57, 57);
+    height: auto;
+    width: 100vw;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.dove_siamo h3{
+    margin-left:25%;;
+    font-family: "Meow Script", serif;
+    font-size: 5vh;
+    margin-bottom: 3vh;
+    
+}
+
+.dove_siamo p{
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom:1vh;
+    white-space: nowrap;
+}
+
+.dove_siamo {
+    margin-top:4vh;
+    margin-left:4vw;
+    color:white;
+}
+
+.dove_siamo iframe{
+    margin-bottom: 1vh;
+    width: 100%;
+}
+
+.recapiti_orari {
+    margin-top:3vh;
+    color: white;
+    margin-left:4vw;
+}
+
+.recapiti h4{
+    
+    font-family: "Meow Script", serif;
+    font-size: 5vh;
+}
+
+.recapiti p{
+    font-family:'Courier New', Courier, monospace;
+    white-space: nowrap;
+}
+
+
+.orari h5{
+    font-family: "Meow Script", serif;
+    font-size: 5vh;
+}
+
+.orari p{
+    font-family:'Courier New', Courier, monospace;
+    white-space: nowrap;
+    margin-bottom: 4vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+h6 {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
